@@ -3,10 +3,10 @@ body {
 }
 
 
-  .content {
-      padding: 40px;
-      background-color: #ccc;
-      border-color: black;
-      border-width: 2px;
-      border-style: solid;
-    }
+.content {
+    padding: 40px;
+    background-color: #ccc;
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+}
