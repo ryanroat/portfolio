@@ -1,52 +1,66 @@
 <!DOCTYPE html>
-<html >
+<html>
+
 <head>
   <meta charset="UTF-8">
   <title>Ryan Roat Code Portfolio</title>
-  
-  
+
+
   <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css'>
-  
+
   <link rel="stylesheet" href="css/style.css">
-  
-  
-  
-  
+
+  <script>
+    function resizeIframe(obj) {
+      obj.style.height = obj.contentWindow.document.body.scrollHeight + 'px';
+    }
+  </script>
+
+
 </head>
 
 <body>
-  
+
   <div class="container-fluid">
     <div class="content">
       <h1 class="text-center">Ryan Roat Code Portfolio</h1>
-      
+
       <div class="row">
         <div class="col-sm-4">
           <h2>Tribute Page - Saint John Neumann</h2>
-          <a href="https://www.freecodecamp.com/ryanroat" target="_blank"><h3>Free Code Camp Front End Dev Project</h3></a>
+          <a href="https://www.freecodecamp.com/ryanroat" target="_blank">
+            <h3>Free Code Camp Front End Dev Project</h3>
+          </a>
           <a href="http://ryanroat.net/stjn/" target="_blank">
-          <img src="https://i.imgur.com/IPJtc8l.jpg" alt="Saint John Neumann icon" class="center-block img-responsive img-rounded"> </a>
+            <img src="https://i.imgur.com/IPJtc8l.jpg" alt="Saint John Neumann icon" class="center-block img-responsive img-rounded"> </a>
         </div>
         <div class="col-sm-4">
           <h2>MCDM Launcher</h2>
-          <p>A chrome extension for quick access to social media accounts, based off a Traversy Media tutorial, with JavaScript added to pick a random catchphrase from an array.</p>
-          <h3><a href="https://chrome.google.com/webstore/detail/mcdm-launcher/acedlhoonclfohcdolnopapfplahpcpb?hl=en-US&gl=US" target="_blank">Chrome Web Store - MCDM Launcher</a></h3>
-          <a href="https://chrome.google.com/webstore/detail/mcdm-launcher/acedlhoonclfohcdolnopapfplahpcpb?hl=en-US&gl=US" target="_blank"><img src="./mcdmtile.png" alt="MCDM Tile" class="center-block img-responsive img-rounded"></a>
+          <p>A chrome extension for quick access to social media accounts, based off a Traversy Media tutorial, with JavaScript
+            added to pick a random catchphrase from an array.</p>
+          <h3>
+            <a href="https://chrome.google.com/webstore/detail/mcdm-launcher/acedlhoonclfohcdolnopapfplahpcpb?hl=en-US&gl=US" target="_blank">Chrome Web Store - MCDM Launcher</a>
+          </h3>
+          <a href="https://chrome.google.com/webstore/detail/mcdm-launcher/acedlhoonclfohcdolnopapfplahpcpb?hl=en-US&gl=US" target="_blank">
+            <img src="./mcdmtile.png" alt="MCDM Tile" class="center-block img-responsive img-rounded">
+          </a>
 
         </div>
         <div class="col-sm-4">
-          <h2>Numbers API</h2> 
+          <h2>Numbers API</h2>
           <p>interface to the Number Facts API</p>
-          <h3><a href="http://ryanroat.net/napi/" target="_blank">Number Facts</a></h3>
-          <iframe src="http://ryanroat.net/napi/"></iframe>
+          <h3>
+            <a href="http://ryanroat.net/napi/" target="_blank">Number Facts</a>
+          </h3>
+          <iframe src="http://ryanroat.net/napi/" frameborder="0" scrolling="no" onload="resizeIframe(this);"></iframe>
         </div>
       </div>
     </div>
-      
-      
+
+
   </div>
   <script src='https://code.jquery.com/jquery-2.2.4.min.js'></script>
   <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js'></script>
 </body>
+
 </html>
-  
